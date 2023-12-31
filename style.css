@@ -1,6 +1,75 @@
 h1 {
   text-align: center;
+  font-size: 55px;
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+.emoji {
+  margin-top: 15px;
+}
+.information {
+  margin-top: 100px;
+}
+.drop-down {
+  width: 400px;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 120px;
+}
+.container {
+  max-width: 750px;
+
+  max-height: 980px;
+  margin: 0 auto;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-family: "Assistant", sans-serif;
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+  margin-top: 250px;
+}
+
+.box-city {
+  font-size: 38px;
+  margin-bottom: 10px;
+  border-left: solid 1px rgb(190, 190, 194);
+  padding-left: 25px;
+}
+.first-city:last-child {
+  border: none;
+}
+h2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.time {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.am-pm {
+  font-size: 18px;
+  padding-left: 8px;
+}
+.date {
+  font-size: 20px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/749/original/colorfulclock.jpg?1703986112);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer {
+  font-family: "Assistant", sans-serif;
   text-align: center;
+  font-size: 18px;
 }
