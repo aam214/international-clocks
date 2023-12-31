@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 120px;
 }
 .container {
-  max-width: 750px;
+  max-width: 700px;
 
   max-height: 980px;
   margin: 0 auto;
@@ -38,15 +38,10 @@ h1 {
 .box-city {
   font-size: 38px;
   margin-bottom: 10px;
-  border-left: solid 1px rgb(190, 190, 194);
-  padding-left: 25px;
-}
-.first-city:last-child {
-  border: none;
 }
 h2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
 }
 .time {

@@ -19,6 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Assistant&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>International Clocks-Ariana M.</title>
   </head>
@@ -32,37 +35,25 @@
       <select class="drop-down">
         <label>Choose your clock</label>
         <option>Select a city</option>
-        <option class="city" value="new-york">Boston, USA</option>
-        <option class="city" value="brazil">Rio De Jainero, Brazil</option>
-        <option class="city" value="johannesburg">Beijing, China</option>
-        <option class="city" value="berlin">Berlin, Germany</option>
+        <option class="drop" value="new-york">Boston, USA</option>
+        <option class="drop" value="brazil">Rio De Jainero, Brazil</option>
+        <option class="drop" value="johannesburg">Beijing, China</option>
+        <option class="drop" value="berlin">Berlin, Germany</option>
       </select>
-      <h2>
-        <div class="box-city">
-          <div class="first-city">London</div>
-          <div class="time">
-            <strong>1:48:15<span class="am-pm">AM</span></strong>
-          </div>
-          <div class="date">December 30th, 2023</div>
+       <h2>
+         <div class="box-city" id="london">
+          <div class="current-city">London</div>
+          <div class="time"><span class="am-pm"></span></div>
+             <div class="date"></div>
         </div>
-        <div class="box-city">
-          Tokyo
+            <div class="box-city" id="tokyo">
+          <div class="current-city">Tokyo</div>
+          <div class="time">
+           1:48:15<span class="am-pm">AM</span></div>
+           <div class="date">December 30th, 2023</div>
+        </div>
+          </h2>
 
-          <div class="time">
-            <strong>1:48:15<span class="am-pm">AM</span> </strong>
-          </div>
-          <div class="date">December 30th, 2023</div>
-        </div>
-        <div class="box-city">
-          Perth
-
-          <div class="time">
-            <strong>1:48:15<span class="am-pm">AM</span> </strong>
-          </div>
-          <div class="date">December 30th, 2023</div>
-        </div>
-      </h2>
-    </div>
     <footer class="information">
       Coded by Ariana M. and is open-sourced on
       <a href="https://github.com/aam214/international-clocks" target="_blank">
@@ -72,6 +63,6 @@
       <a href="   https://internationalclocksampm.netlify.app/">Netlify</a>
     </footer>
 
-    <script src="javascript/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
