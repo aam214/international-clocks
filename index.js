@@ -16,6 +16,14 @@ function updateTime() {
 
   tokyoDateElement.innerHTML = moment().format("MMMM Do YYYY");
   tokyoClockElement.innerHTML = tokyoTime.format("h:mm:ss[<small>]A[</small>]");
+
+  let limaElement = document.querySelector("#lima");
+  let limaClockElement = limaElement.querySelector(".time");
+  let limaDateElement = londonElement.querySelector(".date");
+  let limaTime = moment().tz("America/Lima");
+
+  limaDateElement.innerHTML = moment().format("MMMM Do YYYY");
+  limaClockElement.innerHTML = limaTime.format("h:mm:ss[<small>]A[</small>]");
 }
 updateTime();
 setInterval(updateTime, 1000);
