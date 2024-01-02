@@ -41,18 +41,16 @@ h1 {
 }
 h2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
+
 .time {
   font-size: 28px;
   margin-top: 20px;
   font-weight: bolder;
 }
-.am-pm {
-  font-size: 18px;
-  padding-left: 8px;
-}
+
 .date {
   font-size: 20px;
   margin-top: 30px;
