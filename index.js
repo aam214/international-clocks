@@ -55,7 +55,7 @@ function updateCity(event) {
     
              </div>
         </div>
-        `;
+       `;
 }
 
 let citiesSelectElement = document.querySelector("#city");
