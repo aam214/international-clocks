@@ -39,18 +39,18 @@ updateTime();
 setInterval(updateTime, 1000);
 
 function updateCity(event) {
-  let chooseTimeZone = event.target.value;
-  let chooseName = chooseTimeZone.replace("_", " ").split("/")[1];
-  let chooseTime = moment().tz(chooseTimeZone);
+  let cityTimeZone = event.target.value;
+  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `<h2 id="cities">
-        <div class="box-city" id="london">
-          <div class="current-city">${chooseTimeZone}</div>
-          <div class="time">${chooseTime.format("h:mm:ss")}
-          <small>${chooseTime.format("A")}</small></div>
-             <div class="date">${chooseTime.format("MMMM Do YYYY")}</div>
+        <div class="city" id="london">${cityName}</div>
+          
+          <div class="time">${cityTime.format("h:mm:ss")}
+          <small>${cityTime.format("A")}</small></div>
+             <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
         </div>`;
 }
 
-let citiesSelectElement = document.querySelector("#choose");
+let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change", updateCity);
