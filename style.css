@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-size: 55px;
+  font-size: 80px;
   margin-top: -10px;
   margin-bottom: 60px;
 }
@@ -21,16 +21,12 @@ h1 {
 }
 .container {
   max-width: 740px;
-
-  max-height: 980px;
   margin: 0 auto;
-  color: black;
-
-  border-radius: 10px;
-  opacity: 0.85;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
   font-family: "Assistant", sans-serif;
+  padding-left: 57px;
 
-  padding: 60px;
   margin-top: 150px;
 }
 
@@ -53,9 +49,8 @@ h1 {
 .date {
   font-size: 20px;
   margin-top: 30px;
-  opacity: 0.8;
 }
-body {
+.container {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/749/original/colorfulclock.jpg?1703986112);
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,10 +59,17 @@ footer {
   font-family: "Assistant", sans-serif;
   text-align: center;
   font-size: 18px;
-  padding-top: 50px;
+  margin-top: 70px;
+}
+a {
+  color: white;
 }
 @media (max-width: 960px) {
+  h1 {
+    font-size: 90px;
+  }
   .drop-down {
+    margin-top: 50px;
     padding-left: -40px;
     width: 200px;
   }
@@ -78,10 +80,14 @@ footer {
     margin-top: -85px;
     grid-template-columns: 1fr;
   }
+  .container {
+    color: black;
+    margin-top: 160px;
+  }
   body {
-    background-size: 100vw auto;
+    background-size: 100vw;
   }
   footer {
-    padding-top: 2px;
+    padding-top: 15px;
   }
 }
