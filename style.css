@@ -1,8 +1,7 @@
-.title-clocks h1 {
-  color: white;
+h1 {
   text-align: center;
   font-size: 90px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 60px;
 }
 .emoji {
@@ -24,11 +23,10 @@
 .container {
   max-width: 740px;
   margin: 0 auto;
-  color: rgb(255, 255, 255);
+
   font-weight: 300;
   font-family: "Assistant", sans-serif;
   padding-left: 57px;
-
   margin-top: 150px;
 }
 
@@ -45,7 +43,7 @@
 .time {
   font-size: 28px;
   margin-top: 20px;
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 .date {
@@ -57,9 +55,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-
+  color: white;
+  font-weight: 300;
   padding: 30px 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/749/original/colorfulclock.jpg?1703986112);
 }
 footer {
@@ -69,11 +68,12 @@ footer {
   margin-top: 70px;
 }
 a {
-  color: white;
+  color: black;
 }
 @media (max-width: 960px) {
   h1 {
     font-size: 90px;
+    color: white;
   }
   .drop-down {
     margin-top: 50px;
