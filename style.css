@@ -1,12 +1,14 @@
 h1 {
   text-align: center;
   font-size: 90px;
+  font-weight: 300px;
+  letter-spacing: 5px;
   margin-top: 20px;
   margin-bottom: 60px;
 }
 .emoji {
-  margin-top: 10px;
-  font-size: 40px;
+  margin-top: 15px;
+  font-size: 60px;
 }
 .information {
   margin-top: 100px;
