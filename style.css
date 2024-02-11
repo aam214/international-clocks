@@ -38,6 +38,7 @@ main {
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 120px;
+  color: #052e36;
 }
 .container {
   margin: 0 auto;
@@ -48,8 +49,8 @@ main {
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 30px 50px rgba(56, 45, 83, 0.08);
-
-  font-weight: 300;
+  padding-bottom: 70px;
+  font-weight: 400;
   font-family: "Assistant", sans-serif;
 
   margin-top: 100px;
@@ -65,6 +66,7 @@ main {
   margin-left: 12px;
   padding-left: 157px;
   grid-template-columns: 1fr 1fr 1fr;
+  color: #052e36;
 }
 
 .time {
