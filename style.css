@@ -42,7 +42,7 @@ header h1 {
   margin: 0 auto;
   border-radius: 12px;
   background: white;
-  opacity: 0.77;
+  opacity: 0.8;
   max-width: 370px;
   max-height: 900px;
   padding: 40px;
@@ -64,8 +64,8 @@ header h1 {
 }
 .main-cities {
   display: grid;
-  font-weight: 700;
-  margin-left: 20px;
+  grid-gap: 30px;
+  font-weight: 900;
   grid-template-columns: 1fr 1fr 1fr;
   color: black;
 }
@@ -79,7 +79,7 @@ header h1 {
 
 .date {
   font-size: 20px;
-  margin-left: -14px;
+  margin-left: -10px;
 }
 
 footer {
