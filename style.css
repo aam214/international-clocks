@@ -6,7 +6,7 @@ body {
   color: white;
   border-radius: 5px;
   padding: 90px 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/749/original/colorfulclock.jpg?1703986112);
 }
 header h1 {
